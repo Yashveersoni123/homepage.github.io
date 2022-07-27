@@ -130,9 +130,9 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 2rem;
+  background-color: transparent;
   font-weight: bolder;
-  color: rgb(14, 206, 212);
-  background-color: #f9f9f9;
+  color: rgb(173, 93, 93);
   margin-top: 3rem;
 }
 #btn:hover {
