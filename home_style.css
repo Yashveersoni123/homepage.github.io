@@ -6,7 +6,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
- 
 }
 #myportfolio {
   font-weight: bold;
@@ -120,21 +119,16 @@ body {
   text-align: center;
   font-size: 2rem;
 }
-#btn {
-  cursor:pointer;
-  width: 16rem;
-  height: 6rem;
-  font-size: 2rem;
-  transition: 0.3s;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 2rem;
-  background-color: transparent;
-  font-weight: bolder;
-  color: rgb(173, 93, 93);
-  margin-top: 3rem;
+#btn{
+   
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #999;
+    font-weight: bold;
+    border-radius: 19px;
+    width: 12rem;
 }
 #btn:hover {
   transition: all 0.3s ease-in-out;
