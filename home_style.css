@@ -16,6 +16,10 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
+.fa-moon:hover {
+  font-size: 25px;
+  color: #7c18ff;
+}
 :root {
   --primary-color: #0d0d0d;
   --primary1-color: #0d0d0d;
@@ -45,8 +49,21 @@ body {
   font-size: 25px;
   text-decoration: none;
 }
-.nav_bar a:hover {
-  color: rgb(114, 182, 221);
+.menu:hover {
+  font-size: 30px;
+  color: #7c18ff;
+}
+.menu1:hover {
+  font-size: 30px;
+  color: #7c18ff;
+}
+.menu2:hover {
+  font-size: 30px;
+  color: #7c18ff;
+}
+.menu3:hover {
+  font-size: 30px;
+  color: #7c18ff;
 }
 #myportfolio {
   color: var(--secondary-color);
@@ -93,10 +110,10 @@ body {
 }
 .section2 {
   position: relative;
-  width: 29rem;
+  width: 24rem;
   margin-top: 7rem;
-  height: 30vh;
-  border-radius: 24rem;
+  height: auto;
+  border-radius: 9rem;
   -webkit-box-shadow: 0px 18px 20px -10px rgb(127 240 255 / 3%);
   -moz-box-shadow: 0px 18px 20px -10px rgba(127, 240, 255, 0);
   box-shadow: 0px 18px 20px -10px rgb(127 240 255 / 36%);
@@ -104,39 +121,49 @@ body {
 
 #img {
   position: relative;
-  border-radius: 20rem;
   width: 100%;
   height: 100%;
 }
+.y {
+  color: rgb(232, 31, 250);
+  font-size: 142%;
+  font-family: "FontAwesome";
+}
+
+.other {
+  color: white;
+
+  font-family: cursive;
+}
 .section1 h1 {
-  width: 24rem;
-  text-align: center;
+  width: 27rem;
   font-weight: bold;
-  opacity: 80%;
+  color: white;
+  text-align: center;
 }
 .section1 h4 {
   width: 34rem;
   text-align: center;
   font-size: 2rem;
 }
-#btn{
-   
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 2rem;
-    padding: 2rem;
-    color: #999;
-    font-weight: bold;
-    border-radius: 19px;
-    width: 12rem;
+#btn {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgb(190, 184, 184);
+  background-color: #353434;
+  font-weight: bold;
+  border-radius: 19px;
+  width: 12rem;
 }
 #btn:hover {
   transition: all 0.3s ease-in-out;
   background-color: black;
   color: white;
-  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
-    7px 7px 20px 0px rgba(46, 170, 241, 0.133),
-    4px 4px 5px 0px rgba(22, 159, 238, 0.067);
+  box-shadow: -7px -7px 20px 9px #fff9, -4px -4px 5px -3px #fff9,
+    7px 7px 20px 0px rgb(46 170 241 / 13%),
+    4px 4px 5px -31px rgb(22 159 238 / 7%);
 }
 .nav_bar1 .active {
   background-color: #04aa6d;
@@ -200,7 +227,7 @@ body {
 @media screen and (max-width: 460px) {
   .section2 {
     width: 23rem;
-    height: 22rem;
+    height: auto;
   }
 
   .section1 {
