@@ -125,15 +125,14 @@ body {
   height: 100%;
 }
 .y {
-  color: rgb(232, 31, 250);
+  color: rgb(56 114 255);
   font-size: 142%;
   font-family: "FontAwesome";
 }
 
 .other {
-  color: white;
-
-  font-family: cursive;
+  color: var(--secondary-color);
+  font-family: "Ubuntu";
 }
 .section1 h1 {
   width: 27rem;
